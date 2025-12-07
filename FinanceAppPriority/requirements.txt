@@ -1,0 +1,6 @@
+streamlit
+pandas
+openpyxl
+plotly
+jinja2
+openai>=1.1.1
