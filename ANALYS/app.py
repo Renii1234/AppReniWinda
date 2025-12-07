@@ -1,3 +1,9 @@
+import streamlit as st
+import pandas as pd
+import plotly.express as px
+import os
+from groq import Groq
+from dotenv import load_dotenv
 st.title("🌍 Global GDP Analytics – 195 Countries")
 st.write("Upload file GDP Anda dan dapatkan visualisasi serta analisis AI otomatis.")
 # ==============================================================
